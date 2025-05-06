@@ -1,0 +1,32 @@
+name: Nightly Sitemap Generator
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # Runs every day at 3am UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Sitemap
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
+          find . -name index.html | grep -v '/\.' | while read filename; do
+            url="https://epicairise.github.io${filename#./}"
+            echo "  <url><loc>$url</loc></url>" >> sitemap.xml
+          done
+          echo '</urlset>' >> sitemap.xml
+
+      - name: Commit Sitemap
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add sitemap.xml
+          git commit -m "Auto-update sitemap.xml" || echo "No changes"
+          git push

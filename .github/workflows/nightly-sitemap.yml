@@ -2,7 +2,7 @@ name: Nightly Sitemap Generator
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *"  # Runs daily at 3am UTC
   workflow_dispatch:
 
 jobs:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate sitemap.xml in root
+      - name: Generate sitemap.xml
         run: |
           echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
@@ -23,19 +23,12 @@ jobs:
           done
           echo '</urlset>' >> sitemap.xml
 
-                - name: Commit and Push Sitemap
+      - name: Commit and push sitemap
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git fetch origin main
-          git checkout main
-          mv sitemap.xml ./sitemap.xml  # Just in case it's not in root
-          git add sitemap.xml --force
-          git commit -m "Add sitemap.xml to root" || echo "No changes to commit"
-          git remote set-url origin https://epicairise:${GH_PAT}@github.com/epicairise/epicairise.github.io.git
+          git add sitemap.xml
+          git commit -m "Update sitemap.xml" || echo "No changes to commit"
           git push origin main
-
-
-     

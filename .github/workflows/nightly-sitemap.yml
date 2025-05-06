@@ -23,13 +23,19 @@ jobs:
           done
           echo '</urlset>' >> sitemap.xml
 
-      - name: Commit and push sitemap.xml to root
+                - name: Commit and Push Sitemap
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add sitemap.xml
-          git commit -m "Update sitemap.xml" || echo "No changes to commit"
+          git fetch origin main
+          git checkout main
+          mv sitemap.xml ./sitemap.xml  # Just in case it's not in root
+          git add sitemap.xml --force
+          git commit -m "Add sitemap.xml to root" || echo "No changes to commit"
           git remote set-url origin https://epicairise:${GH_PAT}@github.com/epicairise/epicairise.github.io.git
           git push origin main
+
+
+     

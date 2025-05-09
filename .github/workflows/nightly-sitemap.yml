@@ -20,7 +20,7 @@ jobs:
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
           for file in $(find . -name "*.html"); do
             clean_path=${file#./}
-            url="https://epicairise.github.io/${clean_path}"
+            url="https://dir.querygap.com/${clean_path}"
             echo "  <url><loc>$url</loc></url>" >> sitemap.xml
           done
           echo '</urlset>' >> sitemap.xml
@@ -35,5 +35,5 @@ jobs:
 
       - name: Ping search engines
         run: |
-          curl "https://www.google.com/ping?sitemap=https://epicairise.github.io/sitemap.xml"
-          curl "https://www.bing.com/ping?sitemap=https://epicairise.github.io/sitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://dir.querygap.com/sitemap.xml"
+          curl "https://www.bing.com/ping?sitemap=https://dir.querygap.com/sitemap.xml"

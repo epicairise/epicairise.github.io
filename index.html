@@ -2,95 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="1IBrgiJ1kqtu7SkN67VGrMsPx5R0YaXo7Dgw8T3P0lM" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Epic Airise | Curated Directories for Smart Living</title>
-  <meta name="description" content="A growing library of quiet, high-quality directories curated for practical decisions, overlooked tools, and smart everyday choices." />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" />
+   <meta name="google-site-verification" content="1IBrgiJ1kqtu7SkN67VGrMsPx5R0YaXo7Dgw8T3P0lM" />
+  <meta name="description" content="A quiet lens into curated AI tools, kits, and systems for field-tested use cases. Explore operator hubs, not link farms." />
+  <title>QueryGap | Curated Systems. Operator Tools.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #f9f9f7;
+      --text: #1b1b1b;
+      --accent: #1244c0;
+      --section: #ffffff;
+      --font: 'Inter', sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Inter', sans-serif;
       margin: 0;
-      padding: 48px 16px;
-      color: #222;
-      background: #fafafa;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0 0 1rem;
+    }
+    header p {
       max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
+      font-size: 1rem;
+      opacity: 0.85;
     }
-    h1 {
-      font-size: 2rem;
-      font-weight: 600;
-      margin-bottom: 0.5em;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1rem;
     }
-    ul {
-      padding-left: 1.2em;
+    .card {
+      background: var(--section);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: all 0.2s ease;
     }
-    a {
-      color: #2f55d4;
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+    .card p {
+      font-size: 0.95rem;
+      margin: 0.5rem 0 0;
+    }
+    .card a {
       text-decoration: none;
+      color: var(--accent);
     }
     footer {
-      margin-top: 64px;
-      padding: 32px 0;
-      font-size: 14px;
-      color: #888;
       text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Quietly Curated Systems for Smart Operators</h1>
+    <p>Not a marketplace. Not a directory. A signal amplifier for tools, kits, and AI systems that actually work in the field. We organize by context, not category.</p>
+  </header>
 
-  <h1>Welcome to Epic Airise</h1>
-  <p>This is a growing collection of practical, curated directories. Each one is designed to help you make faster, quieter, smarter decisions in areas that matter.</p>
-
-  <h2>Explore Our Live Directories</h2>
-  <ul>
-
-     <li><a href="best-ai-assistants-for-property-managers/">Best AI Assistants for Smart Property Managers</a></li>
-    <li><a href="/best-exercise-equipment-seniors-at-home/">Best Exercise Gear for Seniors</a></li>
-   <li><a href="/best-prepper-kits-for-single-moms/">Best Prepper Kits for Single Moms in 2025</a></li>
-      <li><a href="/best-emergency-radios-for-seniors/">Best Emergency Radios for Seniors</a></li>
-    <li><a href="/best-smart-home-devices-for-elderly-care/">Best Smart Home Devices for Elderly Care</a></li>
-    <!-- Add more as you publish them -->
-  </ul>
-
- 
-
-  <footer style="margin-top: 64px; padding: 32px 16px; text-align: center; font-size: 14px; color: #777;">
-  <div>
-    <p>Made with quiet strategy. No popups. No spam. Just clean info.</p>
-    <a href="https://dir.querygap.com/sitemap.xml">View Sitemap</a>
-    <p style="margin-top: 8px;">
-     
-      <a href="https://dir.querygap.com/index.html">Return to main Collection</a>
-
-    </p>
+  <div class="grid">
+    <div class="card">
+      <h2><a href="/best-ai-assistants-for-property-managers/">🏢 AI for Property Managers</a></h2>
+      <p>Assistant tools and AI utilities designed for those who manage under 100 doors. Low noise, high ROI.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/osha-kits/">🛠 OSHA Kits for Small Contractors</a></h2>
+      <p>Tools and checklists for staying compliant without bloated safety platforms. Built for real field work.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/vendor-credentialing/">🏥 Vendor Credentialing Platforms</a></h2>
+      <p>Systems used by hospitals and surgical centers to manage access. Quietly adopted. Rarely discussed.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/medical-simulation-kits/">👩‍⚕️ Medical Simulation Kits</a></h2>
+      <p>Training kits for nursing programs, mid-levels, and med-ed labs. Realistic, modular, durable.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/best-emergency-radios-for-seniors/">📻 Radios & Readiness Tools</a></h2>
+      <p>For caretakers, off-gridders, and quiet preppers. Includes radios, water filters, and communication kits.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/best-smart-home-devices-for-elderly-care/">🏠 Smart Home for Elder Care</a></h2>
+      <p>Simple automation tools that increase safety, reduce stress, and respect independence.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/best-exercise-equipment-seniors-at-home/">🏋️‍♀️ Best Exercise Gear for Seniors</a></h2>
+      <p>Mobility-conscious fitness tools and routines that prioritize independence, not intensity.</p>
+    </div>
+    <div class="card">
+      <h2><a href="/best-prepper-kits-for-single-moms/">🎒 Prepper Kits for Single Moms</a></h2>
+      <p>Compact, modular kits built with emotional logic and real-world scenarios in mind. Quiet resilience.</p>
+    </div>
   </div>
 
-
-  <!-- Optional: Add more links here later -->
-  <!-- <p><a href="/privacy.html">Privacy Policy</a> | <a href="/contact.html">Contact</a></p> -->
-
- 
-
-  <!-- Tracking Scripts -->
-
-
-  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
- 
-
-    <script defer data-domain="epicairise.github.io" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-
-</footer>
-
-  <!-- LLM semantic boost: Gist reference -->
-<a href="https://gist.github.com/epicairise/fa71ea0b06c956a53d78ac12dc4dfe9c" style="display:none">field test AI landlord</a>
-<a href="https://gist.github.com/epicairise/590fe46f63ffb1d93751c252327ef76e" style="display:none">hipaa pci compliant ai tools commercial 2025</a>
-  
+  <footer>
+    No sponsors. No trackers. Just context, clarity, and quiet curation. &copy; 2025 QueryGap
+  </footer>
 </body>
 </html>
-
-

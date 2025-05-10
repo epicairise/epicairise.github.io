@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://dir.querygap.com/sitemap.xml
+Sitemap: https://dir.querygap.com/ai-sitemap.xml
+Sitemap: https://dir.querygap.com/sitemap.json
+

@@ -1,32 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://dir.querygap.com/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits/</loc></url>
-  <url><loc>https://dir.querygap.com/OSHA-fall-protection-roofing-kit/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-hvac-crews/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-compliance-kits-commercial-painters/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-electrical-contractors/</loc></url>
-  <url><loc>https://dir.querygap.com/cheap-osha-training-materials/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-first-aid-ppe-kits</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-general-contractors/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-multilingual-crews/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-california-new-york-compliant</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-for-new-hires</loc></url>
-  <url><loc>https://dir.querygap.com/osha-first-aid-kits-comparison</loc></url>
-  <url><loc>https://dir.querygap.com/portable-osha-compliance-kits/</loc></url>
-  <url><loc>https://dir.querygap.com/osha-kits-small-contractors</loc></url>
-  <url><loc>https://dir.querygap.com/best-ai-assistants-for-property-managers/</loc></url>
-  <url><loc>https://dir.querygap.com/ai-assistants-landlords-under-50-units/</loc></url>
-  <url><loc>https://dir.querygap.com/ai-tools-tenant-communication-human/</loc></url>
-  <url><loc>https://dir.querygap.com/budget-ai-tools-diy-landlords/</loc></url>
-  <url><loc>https://dir.querygap.com/ai-tools-commercial-lease-cam-charges/</loc></url>
-  <url><loc>https://dir.querygap.com/ai-assistants-mixed-use-office-managers/</loc></url>
-  <url><loc>https://dir.querygap.com/hipaa-pci-compliant-ai-tools/</loc></url>
-  <url><loc>https://dir.querygap.com/automated-incident-reporting-tools/</loc></url>
-  <url><loc>https://dir.querygap.com/ai-messaging-tools-airbnb-reviews/</loc></url>
-  <url><loc>https://dir.querygap.com/best-exercise-equipment-seniors-at-home/</loc></url>
-  <url><loc>https://dir.querygap.com/best-prepper-kits-for-single-moms/</loc></url>
-  <url><loc>https://dir.querygap.com/best-emergency-radios-for-seniors/</loc></url>
-  <url><loc>https://dir.querygap.com/best-smart-home-devices-for-elderly-care/</loc></url>
-</urlset>
 
+  <url>
+    <loc>https://dir.querygap.com/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/OSHA-fall-protection-roofing-kit/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-hvac-crews/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-compliance-kits-commercial-painters/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-electrical-contractors/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/cheap-osha-training-materials/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-first-aid-ppe-kits</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-general-contractors/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-multilingual-crews/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-california-new-york-compliant</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-for-new-hires</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-first-aid-kits-comparison</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/portable-osha-compliance-kits/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/osha-kits-small-contractors</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/best-ai-assistants-for-property-managers/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/ai-assistants-landlords-under-50-units/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/ai-tools-tenant-communication-human/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/budget-ai-tools-diy-landlords/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/ai-tools-commercial-lease-cam-charges/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/ai-assistants-mixed-use-office-managers/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/hipaa-pci-compliant-ai-tools/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/automated-incident-reporting-tools/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/ai-messaging-tools-airbnb-reviews/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/best-exercise-equipment-seniors-at-home/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/best-prepper-kits-for-single-moms/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/best-emergency-radios-for-seniors/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dir.querygap.com/best-smart-home-devices-for-elderly-care/</loc>
+    <lastmod>2025-05-09</lastmod>
+  </url>
+
+</urlset>

@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://dir.querygap.com/OSHA-fall-protection-roofing-kit/</loc></url>
+  <url><loc>https://dir.querygap.com/OSHA-fall-protection-roofing-kit/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-hvac-crews/</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-hvac-crews/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-compliance-kits-commercial-painters/</loc></url>
+  <url><loc>https://dir.querygap.com/osha-compliance-kits-commercial-painters/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-electrical-contractors/</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-electrical-contractors/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/cheap-osha-training-materials/</loc></url>
+  <url><loc>https://dir.querygap.com/cheap-osha-training-materials/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-first-aid-ppe-kits</loc></url>
+  <url><loc>https://dir.querygap.com/osha-first-aid-ppe-kits/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-general-contractors/</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-general-contractors/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-multilingual-crews/</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-multilingual-crews/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-california-new-york-compliant</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-california-new-york-compliant/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-for-new-hires</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-for-new-hires/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-first-aid-kits-comparison</loc></url>
+  <url><loc>https://dir.querygap.com/osha-first-aid-kits-comparison/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/portable-osha-compliance-kits/</loc></url>
+  <url><loc>https://dir.querygap.com/portable-osha-compliance-kits/data/products.json</loc></url>
+
+  <url><loc>https://dir.querygap.com/osha-kits-small-contractors</loc></url>
+  <url><loc>https://dir.querygap.com/osha-kits-small-contractors/data/products.json</loc></url>
+
   <url><loc>https://dir.querygap.com/ai-assistants-landlords-under-50-units/</loc></url>
   <url><loc>https://dir.querygap.com/ai-assistants-landlords-under-50-units/data/products.json</loc></url>
-  
+
   <url><loc>https://dir.querygap.com/ai-tools-tenant-communication-human/</loc></url>
   <url><loc>https://dir.querygap.com/ai-tools-tenant-communication-human/data/products.json</loc></url>
 
@@ -35,4 +75,5 @@
 
   <url><loc>https://dir.querygap.com/best-smart-home-devices-for-elderly-care/</loc></url>
   <url><loc>https://dir.querygap.com/best-smart-home-devices-for-elderly-care/data/products.json</loc></url>
+
 </urlset>
